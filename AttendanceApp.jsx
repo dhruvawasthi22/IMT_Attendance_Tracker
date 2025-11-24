@@ -1,4 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import ReactDOM from 'react-dom/client'
+import AttendanceApp from './AttendanceApp'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <AttendanceApp />
+  </React.StrictMode>
+)
 import { Plus, Minus, Edit2, Check, GraduationCap, AlertCircle, Trash2, Sparkles, X, MessageSquare, Loader2, Calendar, Settings, Clock, LogOut, User } from 'lucide-react';
 
 // --- FIREBASE CONFIGURATION ---
